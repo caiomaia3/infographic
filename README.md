@@ -1,0 +1,2 @@
+# infographic
+Html infographic test.
