@@ -1,41 +1,62 @@
+/* 
+PALLET
+branco - #fefefe
+azul - #0047B6 #2c62b5
+azul chamativo - #00e0ff
+azul neutro - #c8d2ec
+laranja - #ffba00
+verde - #c2e800
 
+
+rift like font --- https://www.dafontfree.io/rift-font-family/
+Gotham like typeface --- https://www.downloadfonts.io/gotham-font-family-free/
+font converter --- https://www.fontsquirrel.com/tools/webfont-generator
+https://transfonter.org/
+*/
 body {
-    font-family: helvetica;
-    background-color: rgba(0, 0, 0, 0.651);
-    color: blanchedalmond;
+    background-color:  #00072e;
+    color: #fefefe;
 }
 
+h1 {
+    font-family: 'riftbold';
+    color: #fefefe;
+}
 .header{
-    background: #1b3c65;
+    background:   #0047B6;
     padding: 60px;
     text-align: center;
-    color: white;
+    color: #fefefe;
     font-size: 30px;
 }
 
 .content-block1 {
+    font-family: 'riftbold';
+    font-size: 1.5em;
     margin: 10px 0pt;
     padding: 10px;
-    background-color: #7acdf1;
+    background-color:#c8d2ec;
 }
 .content-block2 {
+    font-family: 'riftbold';
+    font-size: 1.5em;
     margin: 10px 0pt;
     padding: 10px;
     background: #bac4d0;
 }
 
 h2.content-block1{
-    color:#1b3c65 ;
+    color: #0047B6;
     display: block;
 }
 h2.content-block2{
-    color:#1b3c65 ;
+    color: #0047B6;
     display: block;
 }
 
 
 .container{
-    background: #1b3c65;
+    background: #0047B6;
     width: 800px;
     margin: 0px  auto;
 }
@@ -47,6 +68,8 @@ h2.content-block2{
 }
 
 .text-box{
+    font-family: 'iCielGotham';
+    color: #00072e;
     width: 60%;
     display: inline-block;
     vertical-align: middle;
